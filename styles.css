@@ -1,0 +1,11 @@
+:root{
+    --background-color: #1f2933;
+    --border-color: #3175fe;
+    --window-background-color: #323f4b;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
