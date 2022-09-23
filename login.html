@@ -9,23 +9,27 @@
     <title>Login</title>
 </head>
 <body>
-    <div class="container">
-        <div class="grid-row logo">
-            <div class="login-header">
-                <a href="">logo</a>
-                <a href="">Connexion</a>
-                <p>Utilisez votre compte école directe</p>
-            </div>
+    <form class="container">
+        <div class="grid-row login-header">
+            <a href="">logo</a>
+            <h1>Connexion</h1>
+            <p>Utiliser votre compte EcoleDirecte</p>
         </div>
         <div class="grid-row usr-name">
-            <input type="text" name="usr" id="username" placeholder="Identifiant">
+            <div class="input-cont">
+                <input type="text" name="usr" id="username" autocomplete="off">
+                <label class="placeholder" for="username">Identifiant</label>
+            </div>
         </div>
         <div class="grid-row password">
-            <input type="password" name="pwd" id="password" placeholder="Mot de passe">
+            <div class="input-cont">
+                <input type="password" name="pwd" id="password" autocomplete="off">
+                <label class="placeholder" for="password">Mot de passe</label>
+            </div>
         </div>
         <div class="grid-row button">
-            <button>Connexion</button>
+            <input type="submit" value="Connexion" id="submit">
         </div>
-    </div>
+    </form>
 </body>
 </html>
